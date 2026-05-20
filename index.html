@@ -828,6 +828,11 @@
               <li>SSD NVMe</li>
               <li>Ryzen 9950X</li>
               <li>Dados enviados via email</li>
+              <li>Painel Pterodactyl</li>
+              <li>Proteção DDoS</li>
+              <li>Backups</li>
+              <li>Suporte</li>
+              <li>Paper/Purpur</li>
             </ul>
             <button class="btn secondary" onclick="openPlanModal('minecraft')">Ver planos</button>
           </article>
@@ -838,10 +843,15 @@
             <div class="money">R$2,50<small>+</small></div>
             <ul class="features">
               <li>Planos de 512MB até 2GB RAM</li>
-              <li>CPU 1vCore</li>
+              <li>SSD NVMe</li>
+              <li>CPU Ryzen 9 9950X</li>
+              <li>Painel Pterodactyl</li>
+              <li>Auto restart</li>
+              <li>Console em tempo real</li>
               <li>Recursos dedicados</li>
               <li>Uptime 24/7</li>
               <li>Recebimento por email</li>
+              <li>Suporte 24hrs</li>
             </ul>
             <button class="btn" onclick="openPlanModal('discord')">Ver planos</button>
           </article>
@@ -1006,18 +1016,21 @@
           'Suporte 24/7',
           'Painel intuitivo',
           'SSD NVMe',
-          'Ryzen 9950X',
-         
+          'Ryzen 9 9950X',
+          'Painel Pterodactyl',
+          'Backups',
+          'Paper/Purpur',
+        
         ],
         plans: [
-          { name: '2GB RAM', price: 'R$12,50', cents: 1250 },
-          { name: '4GB RAM', price: 'R$25,00', cents: 2500 },
-          { name: '8GB RAM', price: 'R$50,00', cents: 5000 },
-          { name: '10GB RAM', price: 'R$60,00', cents: 6000 },
-          { name: '12GB RAM', price: 'R$70,00', cents: 7000 },
-          { name: '16GB RAM', price: 'R$100,00', cents: 10000 },
-          { name: '32GB RAM', price: 'R$206,00', cents: 20600 },
-          { name: '64GB RAM', price: 'R$500,00', cents: 50000 }
+          { name: '2GB RAM — 5GB SSD NVMe', price: 'R$12,50', cents: 1250 },
+          { name: '4GB RAM — 10GB SSD NVMe', price: 'R$25,00', cents: 2500 },
+          { name: '8GB RAM — 20GB SSD NVMe', price: 'R$50,00', cents: 5000 },
+          { name: '10GB RAM — 25GB SSD NVMe', price: 'R$60,00', cents: 6000 },
+          { name: '12GB RAM — 30GB SSD NVMe', price: 'R$70,00', cents: 7000 },
+          { name: '16GB RAM — 40GB SSD NVMe', price: 'R$100,00', cents: 10000 },
+          { name: '32GB RAM — 80GB SSD NVMe', price: 'R$206,00', cents: 20600 },
+          { name: '64GB RAM — 160GB SSD NVMe', price: 'R$500,00', cents: 50000 }
         ]
       },
 
@@ -1028,19 +1041,25 @@
         description: 'Escolha a hospedagem para deixar seu bot Discord online 24/7. Os dados do painel serão enviados via email.',
         features: [
           'Alta performance',
-           'CPU 1vCore',
+          'CPU 1vCore',
           'Proteção DDoS',
+          'Painel Pterodactyl',
+          'NodeJS',
+          'Python',
+          'Java',
+          'Auto restart',
+          'Console em tempo real',
           'Uptime 99.9%',
           'Recursos dedicados',
           'Inicialização automática',
-          'Suporte Dedicado',
+          'Suporte dedicado',
           'SSD NVMe'
         ],
-        plans: [
-          { name: '512MB RAM', price: 'R$2,50', cents: 250 },
-          { name: '1GB RAM', price: 'R$5,00', cents: 500 },
-          { name: '2GB RAM', price: 'R$10,00', cents: 1000 }
-        ]
+      plans: [
+  { name: '512MB RAM — 5GB SSD NVMe — 1vCore', price: 'R$2,50', cents: 250 },
+  { name: '1GB RAM — 10GB SSD NVMe — 1vCore', price: 'R$5,00', cents: 500 },
+  { name: '2GB RAM — 20GB SSD NVMe — 1vCore', price: 'R$10,00', cents: 1000 }
+]
       },
 
       vps: {
